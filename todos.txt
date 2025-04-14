@@ -19,3 +19,6 @@ fix the bag
 make soup
 paint Warhammer
 play fallout 4
+get shopping
+get washing
+master python
