@@ -1,9 +1,3 @@
-brush teeth
-shower
-learn Japanese
-learn
-shower
-clean
 cook
 shower
 clean
@@ -11,7 +5,6 @@ mop the floors
 eat something
 clean
 shower
-mop
 clean
 study python
 clean the bag
@@ -22,3 +15,9 @@ play fallout 4
 get shopping
 get washing
 master python
+Zeusdummy value
+test value to see the effect
+hi
+hello
+hello
+master python today

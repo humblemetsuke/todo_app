@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d09107b8-e123-4aca-93f9-08c82ef1a0cf" name="Changes" comment="Create basic GUI without interactions.">
+    <list default="true" id="d09107b8-e123-4aca-93f9-08c82ef1a0cf" name="Changes" comment="Implemented an &quot;Add&quot; button.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/convertor.py" beforeDir="false" afterPath="$PROJECT_DIR$/convertor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_zipper.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_zipper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/todos.txt" afterDir="false" />
     </list>
@@ -43,6 +44,9 @@
     "accountId": "36ddf66e-08ff-4f80-b7c0-f837c8f1dadf"
   }
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -58,11 +62,12 @@
     "Python.file_zipper.executor": "Run",
     "Python.gui.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.zip_creator.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -129,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744643734172</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implemented an &quot;Add&quot; button.">
+      <option name="closed" value="true" />
+      <created>1744645185784</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744645185784</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +163,7 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <MESSAGE value="Create basic GUI without interactions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create basic GUI without interactions." />
+    <MESSAGE value="Implemented an &quot;Add&quot; button." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented an &quot;Add&quot; button." />
   </component>
 </project>
