@@ -1,12 +1,23 @@
 import functions
 import FreeSimpleGUI as sg
 import time
+import os
 
-sg.theme("Black")
+if not os.path.exists("todos.txt"):
+    with open("todos.txt", "w") as file:
+        pass
+""" 
+The above conditional statement checks if the todos.txt file exists.
+If not, then the todos.txt file will be created.
+This prevents the program from being too fragile.
+"""
+
+
 clock = sg.Text('', key='clock')
 label = sg.Text("Type in a to do: ")
 input_box = sg.InputText(tooltip = "Enter todo", key = "todo")
-add_button = sg.Button("Add")
+add_button = sg.Button(size=2, mouseover_colors="LightBlue2",
+                       tooltip="Add Todo", key="Add")
 list_box = sg.Listbox(values=functions.get_todos(), key ='todos',
                       enable_events = True, size = [45, 10])
 edit_button = sg.Button("Edit")
