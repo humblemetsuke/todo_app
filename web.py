@@ -1,6 +1,12 @@
 import streamlit as st
 import functions
 
+
+def add_todo():
+
+    todo = st.session_state["new_todo"]
+    print(todo)
+
 todos = functions.get_todos()
 
 
@@ -12,6 +18,7 @@ st.write("This app is to increase your productivity.")
 for todo in todos:
     st.checkbox(todo)
 
-st.text_input(label="", placeholder="Enter a new todo:")
+st.text_input(label="enter", placeholder="Enter a new todo:",
+              on_change=add_todo)
 
 
